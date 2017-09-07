@@ -1,6 +1,7 @@
-redis并发锁插件
+#redis并发锁插件
 
-调用说明：
+#使用说明
+<pre><code>
 // redis对象
 $redis = new Redis();
 $redis->connect('127.0.0.1', 6379);
@@ -10,3 +11,4 @@ $key = 'test';
 $plugin->lock($key);
 // 解锁
 $plugin->unlock($key);
+</pre></code>
