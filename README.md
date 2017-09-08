@@ -1,6 +1,6 @@
-#redis并发锁插件
+# redis并发锁插件
 
-#使用说明
+## 使用说明
 <pre><code>
 // redis对象
 $redis = new Redis();
